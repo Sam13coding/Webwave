@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Clone</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            overflow-y: auto; /* Enables vertical scrolling */
+            min-height: 100vh; /* Ensures the body takes up at least full viewport height */
+        }
+
+        .header {
+            background-color: #1877f2;
+            padding: 20px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px;
+            margin-left: 125px;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+        }
+
+        .login-box {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 400px;
+        }
+
+        .login-box h2 {
+            font-size: 24px;
+            color: #020e1e;
+            margin-bottom: 20px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .login-btn {
+            background-color: #1877f2;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .login-btn:hover {
+            background-color: #165eab;
+        }
+
+        .extra-options {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .extra-options a {
+            color: #1877f2;
+            text-decoration: none;
+            font-size: 14px;
+            margin: 0 10px;
+        }
+
+        .extra-options a:hover {
+            text-decoration: underline;
+        }
+
+        .signup-btn {
+            margin-top: 20px;
+            background-color: #42b72a;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .signup-btn:hover {
+            background-color: #36a420;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f0f2f5;
+            font-size: 14px;
+            color: #555;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="lol.webp" alt="Facebook Logo" class="logo">
+    </div>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Facebook</h2>
+            <form>
+                <p>Username or Email</p>
+                <input type="text" class="input-field" required>
+                <p>Password</p>
+                <input type="password" class="input-field" required>
+                <button type="submit" class="login-btn">Log In</button>
+            </form>
+
+            <div class="extra-options">
+                <a href="#">Forgot Password?</a>
+                <span>
+                <a href="#">Sign Up for Facebook</a>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 facebook like website
+    </footer>
+</body>
+
+</html>
